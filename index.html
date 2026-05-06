@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Pet Shop Gamarano</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+<a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav id="site-nav" aria-label="Navegação principal">
+  <div class="container">
+    <a href="#inicio" class="nav-logo" aria-label="Pet Shop Gamarano — início">
+      <div class="nav-logo-icon" aria-hidden="true">
+        <img src="paw-print.png" alt="Um pata laranga">
+      </div>
+      <span class="nav-logo-text">Pet Shop Gamarano</span>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <a href="#contato" class="btn btn-default btn-desktop">Fale Conosco</a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<nav id="nav-mobile" class="nav-mobile" aria-label="Menu mobile">
+  <a href="#inicio">Início</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#localizacao">Localização</a>
+  <a href="#contato">Contato</a>
+  <a href="#contato" class="btn btn-default" style="margin-top:8px;justify-content:center">Fale Conosco</a>
+</nav>
+
+<main id="main-content">
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="inicio" aria-labelledby="hero-heading">
+  <div class="hero-blob-1" aria-hidden="true"></div>
+  <div class="hero-blob-2" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- left col -->
+      <div>
+        <div class="section-eyebrow reveal">
+          <span class="eyebrow-dash" aria-hidden="true"></span>
+          <span class="label-caps">Belo Horizonte, MG</span>
+        </div>
+
+        <h1 id="hero-heading" class="display hero-h1 reveal reveal-delay-1">
+          Tudo que<br>seu <mark>pet</mark><br>merece
+        </h1>
+
+        <p class="hero-lead reveal reveal-delay-2">
+          No <strong>Pet Shop Gamarano</strong> você encontra banho, tosa, rações e acessórios. Também somos ponto oficial de retirada da <strong>Shopee</strong> e do <strong>Mercado Livre</strong>!
+        </p>
+
+        <div class="hero-badges reveal reveal-delay-3" role="list" aria-label="Destaques">
+          <span class="badge" role="listitem"><span class="badge-dot" aria-hidden="true"></span>Banho & Tosa</span>
+          <span class="badge" role="listitem"><span class="badge-dot" aria-hidden="true"></span>Rações Premium</span>
+          <span class="badge badge-brand" role="listitem"><span class="badge-dot" aria-hidden="true"></span>Retirada Shopee</span>
+          <span class="badge badge-brand" role="listitem"><span class="badge-dot" aria-hidden="true"></span>Retirada Mercado Livre</span>
+        </div>
+
+        <div class="hero-actions reveal reveal-delay-4">
+          <a href="#sobre" class="btn btn-default">Nossos Serviços</a>
+          <a href="#localizacao" class="btn btn-outline">Como Chegar</a>
+        </div>
+      </div>
+
+      <!-- right col: store card -->
+      <div class="reveal reveal-delay-2">
+        <article class="card card-shadowed store-card" aria-label="Nossa loja">
+          <div class="store-thumb">
+            <span class="store-thumb-icon" aria-hidden="true"><img src="petshop-gamarano.webp" alt="Fachada da loja"></span>
+            <span class="badge badge-brand store-pill">Nossa Loja</span>
+          </div>
+
+          <div class="card-header">
+            <h2 class="card-title">Pet Shop Gamarano</h2>
+            <p class="card-description">Espaço completo e acolhedor para cuidar do seu animal com carinho, qualidade e preço justo.</p>
+          </div>
+
+          <div class="card-content">
+            <div class="chips" role="list">
+              <span class="chip" role="listitem"><img src="map-pinned.png" alt="localização no mapa"> BH, MG</span>
+              <span class="chip" role="listitem"><img src="clock-check.png" alt="relogio">Seg–Sex 8h–18h</span>
+            </div>
+          </div>
+
+          <div class="separator" aria-hidden="true"></div>
+          <div class="stats-row" role="list" aria-label="Estatísticas">
+            <div class="stat-cell" role="listitem">
+              <span class="stat-num" aria-label="Mais de 5 anos">5+</span>
+              <span class="stat-label">Anos</span>
+            </div>
+            <div class="stat-cell" role="listitem">
+              <span class="stat-num" aria-label="Mais de 500 clientes">500+</span>
+              <span class="stat-label">Clientes</span>
+            </div>
+            <div class="stat-cell" role="listitem">
+              <span class="stat-num" aria-label="2 plataformas de entrega">4.8</span>
+              <span class="stat-label">Avaliação</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SOBRE ═══════════ -->
+<section id="sobre" class="section section-alt" aria-labelledby="sobre-heading">
+  <div class="hero-blob-3" aria-hidden="true"></div>
+  <div class="hero-blob-4" aria-hidden="true"></div>
+
+
+  <div class="container">
+
+    <header class="sec-hd reveal">
+      <div class="section-eyebrow">
+        <span class="eyebrow-dash" aria-hidden="true"></span>
+        <span class="label-caps">O que fazemos</span>
+      </div>
+      <h2 id="sobre-heading" class="display section-title">Nossos Serviços</h2>
+      <p class="section-subtitle">Cuidado completo para o seu pet e comodidade no seu dia a dia.</p>
+    </header>
+
+    <div class="services-grid" role="list">
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-1" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="produtos-acessorios.jpg" alt="Produtos e acessórios"></div>
+        <div class="card-content">
+          <h3 class="card-title">Produtos & Acessórios</h3>
+          <p class="card-description">Coleiras, camas, brinquedos, areia higiênica e tudo que seu animal precisa para viver com conforto.</p>
+        </div>
+      </article>
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-2" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="banho-tosa.png" alt="Banho & Tosa"></div>
+        <div class="card-content">
+          <h3 class="card-title">Banho & Tosa</h3>
+          <p class="card-description">Profissionais especializados para deixar seu pet limpo, cheiroso e bonito. Agendamento fácil.</p>
+        </div>
+      </article>
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-3" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="raçao-pet.png" alt="Rações & Petiscos"></div>
+        <div class="card-content">
+          <h3 class="card-title">Rações & Petiscos</h3>
+          <p class="card-description">Royal Canin, Premier, Hills, Pedigree e mais — para cães, gatos, aves e roedores.</p>
+        </div>
+      </article>
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-4" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="shopee-entrega.jpg" alt="shopee entrega"></div>
+        <div class="card-content">
+          <h3 class="card-title">Retirada Shopee</h3>
+          <p class="card-description">Ponto oficial Shopee. Comprou online? Retire com segurança e praticidade na nossa loja.</p>
+        </div>
+      </article>
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-5" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="Mercado_p24143_cover_image_resized.webp" alt="Mercado livre"></div>
+        <div class="card-content">
+          <h3 class="card-title">Retirada Mercado Livre</h3>
+          <p class="card-description">Parceiros oficiais do Mercado Livre. Retire seus pedidos de forma rápida e prática.</p>
+        </div>
+      </article>
+
+      <article class="card card-shadowed srv-card reveal reveal-delay-6" role="listitem">
+        <div class="srv-thumb " aria-hidden="true"><img src="saude-pet.webp" alt="Saúde & Higiene"></div>
+        <div class="card-content">
+          <h3 class="card-title">Saúde & Higiene</h3>
+          <p class="card-description">Antiparasitários, shampoos, suplementos e perfumes para seu pet sempre saudável.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Alert: delivery partners -->
+    <div class="alert-delivery reveal" role="note" aria-label="Pontos de retirada disponíveis">
+      <div class="alert-icon-wrap" aria-hidden="true"><img src="shopee.svg" alt="shopee"></div>
+      <div class="alert-text">
+        <h4>Ponto de Retirada Shopee</h4>
+        <p>Retire suas compras da Shopee com comodidade e segurança</p>
+      </div>
+      <div class="separator-v" aria-hidden="true"></div>
+      <div class="alert-icon-wrap" aria-hidden="true"><img src="mercadopago.svg" alt="Mercado livre"></div>
+      <div class="alert-text">
+        <h4>Ponto de Retirada Mercado Livre</h4>
+        <p>Parceiro oficial para retirada de encomendas</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ LOCALIZAÇÃO ═══════════ -->
+<section id="localizacao" class="section section-white" aria-labelledby="loc-heading">
+  <div class="container">
+
+    <header class="reveal">
+      <div class="section-eyebrow">
+        <span class="eyebrow-dash" aria-hidden="true"></span>
+        <span class="label-caps">Como nos encontrar</span>
+      </div>
+      <h2 id="loc-heading" class="display section-title">Localização</h2>
+      <p class="section-subtitle">Fácil acesso e estacionamento gratuito para a sua comodidade.</p>
+    </header>
+
+    <div class="loc-grid">
+      <dl class="loc-list" aria-label="Informações de contato e localização">
+
+        <div class="loc-item reveal reveal-delay-1">
+          <div class="loc-icon" aria-hidden="true"><img src="map-pinned.png" alt="Localização no mapa"></div>
+          <div class="loc-body">
+            <dt>Endereço</dt>
+            <a href="https://maps.app.goo.gl/5Z7mStUrsgooeSif7"><dd>Antônio José dos Santos, 212 — Céu Azul<br>Belo Horizonte, MG — 31580-000</dd></a>
+          </div>
+        </div>
+
+        <div class="loc-item reveal reveal-delay-2">
+          <div class="loc-icon" aria-hidden="true"><img src="clock-check.png" alt="relogio"></div>
+          <div class="loc-body">
+            <dt>Funcionamento</dt>
+            <dd>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 14h — Domingo: Fechado</dd>
+          </div>
+        </div>
+
+        <div class="loc-item reveal reveal-delay-3">
+          <div class="loc-icon" aria-hidden="true"><img src="phone.png" alt="Telefone"></div>
+          <div class="loc-body">
+            <dt>Telefone / WhatsApp</dt>
+            <dd><a href="https://wa.me/5531987731178" style="color:var(--fg);font-weight:600">(31) 98773-1178</a></dd>
+          </div>
+        </div>
+
+      </dl>
+
+      <div class="map-placeholder reveal reveal-delay-2" aria-label="Mapa de localização — cole aqui o iframe do Google Maps">
+      <a href="https://maps.app.goo.gl/5Z7mStUrsgooeSif7">
+        <span class="map-placeholder-text">
+          <iframe name="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30026.524344555688!2d-44.03396112568359!3d-19.8265973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691db5a100001%3A0xb3cea5c5ba38c954!2sPetshop%20Gamarano!5e0!3m2!1spt-BR!2sbr!4v1778096093644!5m2!1spt-BR!2sbr" width="600" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+      </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ CONTATO ═══════════ -->
+<section id="contato" class="section section-alt" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <header class="reveal">
+          <div class="section-eyebrow">
+            <span class="eyebrow-dash" aria-hidden="true"></span>
+            <span class="label-caps">Fale com nosco</span>
+          </div>
+          <h2 id="loc-heading" class="display section-title">Contato</h2>
+          <p class="section-subtitle">Todas as nossas redes sociais aqui.</p>
+        </header>
+
+      <!-- Aside: social cards -->
+      <div class="contact-aside reveal reveal-delay-2">
+
+        <a href="https://wa.me/5531987731178" target="_blank" rel="noopener noreferrer" class="social-card">
+          <div class="social-icon" style="background:#25D366" aria-hidden="true"><img src="whatsapp.svg" alt="whatsapp"></div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>(31) 98773-1178 — Resposta rápida</p>
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/petshopgamarano/" class="social-card">
+          <div class="social-icon" style="background:#FF0069" aria-hidden="true"><img src="instagram.svg" alt="instagram"></div>
+          <div>
+            <h4>Instagram</h4>
+            <p>@petshopgamarano</p>
+          </div>
+        </a>
+
+        <a href="https://www.facebook.com/p/Petshop-Gamarano-100076583447346/" class="social-card">
+          <div class="social-icon" style="background:#0866FF" aria-hidden="true"><img src="facebook.svg" alt="facebook"></div>
+          <div>
+            <h4>Facebook</h4>
+            <p>@Petshop Gamarano </p>
+          </div>
+        </a>
+
+        <div class="separator-subtle" aria-hidden="true"></div>
+
+        <div class="social-card social-card-highlight" role="note" aria-label="Ponto oficial de retirada">
+          <div class="social-icon" style="background:var(--fg)" aria-hidden="true"><img src="package-check.png" alt="caixas"></div>
+          <div>
+            <h4>Retirada Shopee & Mercado Livre</h4>
+            <p>Ponto oficial — retire aqui sua encomenda</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-brand">
+      <div class="footer-logo-icon" aria-hidden="true"><img src="paw-print.png" alt="pata laranja"></div>
+      <span class="footer-brand-name">Pet Shop Gamarano</span>
+    </div>
+    <p class="footer-copy">© 2025 Pet Shop Gamarano — Belo Horizonte, MG</p>
+  </div>
+</footer>
+
+<!-- Toast notification -->
+<div id="form-toast" role="status" aria-live="polite" aria-atomic="true">
+  <span aria-hidden="true">✓</span>
+  <span>Mensagem enviada com sucesso!</span>
+</div>
+
+<script>
+/* ─── Mobile nav toggle ─── */
+const toggle = document.querySelector('.nav-toggle');
+const mobileNav = document.getElementById('nav-mobile');
+
+toggle.addEventListener('click', () => {
+  const expanded = toggle.getAttribute('aria-expanded') === 'true';
+  toggle.setAttribute('aria-expanded', String(!expanded));
+  mobileNav.classList.toggle('open', !expanded);
+});
+
+// Close on link click
+mobileNav.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    toggle.setAttribute('aria-expanded', 'false');
+    mobileNav.classList.remove('open');
+  });
+});
+
+/* ─── Scroll reveal (IntersectionObserver) ─── */
+const revealEls = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+revealEls.forEach(el => observer.observe(el));
+
+/* ─── Form validation (shadcn field patterns) ─── */
+const form = document.getElementById('contact-form');
+
+function validateField(fieldId, inputId, condition) {
+  const field = document.getElementById(fieldId);
+  const input = document.getElementById(inputId);
+  const valid = condition(input.value.trim());
+  field.dataset.invalid = valid ? '' : 'true';
+  if (valid) {
+    delete field.dataset.invalid;
+    field.dataset.valid = 'true';
+    input.setAttribute('aria-invalid', 'false');
+  } else {
+    field.dataset.invalid = 'true';
+    delete field.dataset.valid;
+    input.setAttribute('aria-invalid', 'true');
+  }
+  return valid;
+}
+
+const isEmail = v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+
+// Live validation on blur
+document.getElementById('nome').addEventListener('blur', () =>
+  validateField('field-nome', 'nome', v => v.length >= 2));
+document.getElementById('email').addEventListener('blur', () =>
+  validateField('field-email', 'email', isEmail));
+document.getElementById('mensagem').addEventListener('blur', () =>
+  validateField('field-msg', 'mensagem', v => v.length >= 5));
+
+// Submit
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  const nomeOk = validateField('field-nome', 'nome', v => v.length >= 2);
+  const emailOk = validateField('field-email', 'email', isEmail);
+  const msgOk = validateField('field-msg', 'mensagem', v => v.length >= 5);
+
+  if (!nomeOk || !emailOk || !msgOk) {
+    // Focus first invalid
+    const firstInvalid = form.querySelector('[data-invalid] input, [data-invalid] textarea');
+    firstInvalid?.focus();
+    return;
+  }
+
+  // Simulate send
+  const btn = document.getElementById('submit-btn');
+  const lbl = document.getElementById('submit-label');
+  btn.disabled = true;
+  lbl.textContent = 'Enviando…';
+
+  setTimeout(() => {
+    btn.disabled = false;
+    lbl.textContent = 'Enviar Mensagem';
+    form.reset();
+    ['field-nome','field-email','field-assunto','field-msg'].forEach(id => {
+      const f = document.getElementById(id);
+      delete f.dataset.invalid;
+      delete f.dataset.valid;
+    });
+    showToast();
+  }, 1200);
+});
+
+/* ─── Toast notification ─── */
+function showToast() {
+  const toast = document.getElementById('form-toast');
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 4000);
+}
+</script>
+</body>
+</html>
