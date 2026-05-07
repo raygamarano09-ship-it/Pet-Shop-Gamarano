@@ -1030,6 +1030,7 @@ footer .container {
   .hero-grid,
   .loc-grid,
   .contact-grid { grid-template-columns: 1fr; gap: var(--space-10); }
+  .map-placeholder {margin: auto ; width: 600px;}
   .services-grid { grid-template-columns: 1fr 1fr; gap: var(--space-8); }
   .nav-links, .btn-desktop { display: none; }
   .nav-toggle { display: flex; }
@@ -1038,13 +1039,16 @@ footer .container {
   .hero-blob-2 { display: none; }
   .container { padding-inline: var(--space-5); }
   .section { padding-block: 72px; }
-  .alert-text{width: 240px;}
+  .alert-text{width: 240px; text-align: center;}
 }
 @media (max-width: 700px){
-.services-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .alert-delivery { flex-direction: column; gap: var(--space-4); }
+  .alert-delivery .separator-v { display: none; }
 }
 
 @media (max-width: 600px) {
+  .map-placeholder {width: 100%;}
   .srv-card .srv-thumb{height: 280px;}
   .field-row { grid-template-columns: 1fr; }
   .alert-delivery { flex-direction: column; gap: var(--space-4); }
